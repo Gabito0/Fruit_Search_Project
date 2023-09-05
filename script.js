@@ -5,8 +5,10 @@ const fruit = ['Apple', 'Apricot', 'Avocado 🥑', 'Banana', 'Bilberry', 'Blackb
 
 function search(str) {
 	let results = [];
-    const loweredCase = fruit.map((word) => word.toLowerCase());
-    loweredCase.filter()
+    let fruitLoweredCase = fruit.map((word) => word.toLowerCase());
+    return fruitLoweredCase.filter((val)=> {
+        if(val.includes(input.value))
+    })
 
 	// TODO
 
